@@ -9,10 +9,9 @@
     <style>
         .container {
             width: 1200px;
-            margin: 0 auto;
             display: grid;
             grid-template-columns: 1fr 2fr;
-            gap: 10px;
+            gap:10px;
         }
 
         .left {
@@ -22,23 +21,21 @@
         .right {
             background-color: blue;
         }
-        .vertical-center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
-        .horizontal-center {
-            margin: 0 auto;
-        }
-        .grid1 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
+.horizontal-center{
+    text-align: center;
+}
+.grid1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 
+
+
+}
     </style>
 </head>
 
 <body>
+    <div style="display:flex; justify-content: center;">
     <div class="container">
         <div class="left">
             <div>
@@ -66,6 +63,7 @@
             </div>
         </div>
     </div>
+</div>
 </body>
 
 </html>
